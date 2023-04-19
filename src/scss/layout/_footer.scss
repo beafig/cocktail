@@ -1,0 +1,34 @@
+.footer {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-top: 2px dotted $mainColor;
+  &__text {
+    font-family: $mainFont;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  &__link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &__link:hover {
+    color: $mainColor;
+  }
+  &__img {
+    width: 60px;
+    height: 60px;
+  }
+  &__small {
+    font-family: $mainFont;
+    font-size: 20px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}

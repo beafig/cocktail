@@ -1,0 +1,57 @@
+.header {
+  background-color: $mainColor;
+  padding-top: 25px;
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  &__title {
+    color: white;
+    font-family: $mainFont;
+    letter-spacing: 1px;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  &__logo {
+    height: 110px;
+    width: 110px;
+    margin: -53px -34px 0 -34px;
+  }
+  &__form {
+    text-align: end;
+    position: relative;
+    bottom: 90px;
+  }
+  &__input {
+    border: 2px solid $mainColor;
+    border-radius: 5px;
+    font-family: $mainFont;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 3px;
+  }
+  &__btn {
+    background-color: #f4bb44;
+    color: $mainColor;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    height: 30px;
+    margin: 0 15px;
+    font-family: $mainFont;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  &__btn:hover {
+    transform: scale(120%);
+  }
+}

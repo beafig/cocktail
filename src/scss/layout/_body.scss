@@ -1,0 +1,105 @@
+.main {
+  &__section2 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/147/139/non_2x/summer-seamless-pattern-with-hand-drawn-in-sketch-style-alcohol-cocktails-vintage-backdrop-with-drinks-flowers-and-lemons-on-white-background-for-textile-wrapping-paper-menu-vector.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: $mainFont;
+    min-height: 70vh;
+  }
+  &__list {
+    background-color: white;
+    width: 300px;
+    border: 5px solid $mainColor;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    &--title {
+      font-family: "Gloock", serif;
+      font-size: 25px;
+      font-weight: 800;
+      padding: 10px;
+    }
+    &--title2 {
+      margin-left: 65px;
+    }
+    &--message {
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 20px;
+      margin: 5px 0;
+      padding: 0 5px;
+    }
+    &--cocktails {
+      padding-bottom: 10px;
+    }
+    &--name {
+      color: $mainColor;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 20px;
+      margin: 5px 0;
+    }
+    &--name2 {
+      cursor: pointer;
+    }
+    &--name2:hover {
+      transform: scale(120%);
+    }
+    &--img {
+      height: 170px;
+      width: 130px;
+      border: 3px solid $mainColor;
+      border-radius: 10px;
+    }
+    &--img2:hover {
+      transform: scale(110%);
+    }
+    &--img2 {
+      cursor: pointer;
+    }
+    &--container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &--btn {
+      background-color: #f4bb44;
+      color: $mainColor;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+      height: 30px;
+      margin: 8px 10px 0;
+      font-family: $mainFont;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    &--btn:hover {
+      transform: scale(120%);
+    }
+  }
+}
+
+.selected {
+  background-color: #f4bb44;
+  color: $mainColor;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.fa-solid {
+  margin-left: 10px;
+  color: #f4bb44;
+  padding: 0 4px;
+  border: 2px solid $mainColor;
+  background-color: $mainColor;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-solid:hover {
+  transform: scale(120%);
+}
