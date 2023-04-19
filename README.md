@@ -1,4 +1,4 @@
-# Ejercicio de evaluación modulo 2 de Bea Figueroa
+# Ejercicio de evaluación modulo 2 (JAVASCRIPT)
 
 ¡Hola 👋🏽! Este es mi ejercicio para superar el segundo modulo del bootcamp de programación en Adalab.
 
